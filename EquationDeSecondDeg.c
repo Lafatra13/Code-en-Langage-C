@@ -6,7 +6,8 @@ int main()
 {
  int a,b,c;
  float x1, x2, delta;
-
+ 
+ printf("Résolution de l'équation ax²+bx+c=0");
  printf("Entrer a:") ;
  scanf("%d", &a) ;
  printf("Entrer b:") ;
