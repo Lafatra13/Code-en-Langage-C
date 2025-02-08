@@ -4,7 +4,7 @@
 int main()
 {
   int N,i;
-  int F=1;
+  double F=1;
   printf("Entrer un nombre:");
   scanf("%d",&N);
   
@@ -13,6 +13,6 @@ int main()
     F=F*i;
   }
   
-  printf("%d!=%d\n\n",N,F);
-return (0);
+  printf("%d!=%f\n\n",N,F);
+ return (0);
 }
