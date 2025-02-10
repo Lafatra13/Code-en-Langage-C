@@ -20,7 +20,7 @@ int main ()
     }  
   }
   S+=pow(10,N);
-  printf("10^%d=%g",N,S) ;
+  printf("10^%d=%f",N,S) ;
   
  return (0);
 }
