@@ -10,7 +10,7 @@ int main ()
     printf("Entrer un nombre:") ;
     scanf("%d", &N) ;
     
-  for(i=1;i<N;i++) 
+  for(i=0;i<N;i++) 
   {
     S=(pow(10,i)) +S;
     printf("10^%d",i) ;
